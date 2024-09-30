@@ -17,11 +17,11 @@ Follow the steps below in order to start using this application.
 
 #### Populate the database with data
 
-`$php artisan db:seed`
+`$ php artisan db:seed`
 
 #### Run the application
 
-`php artisan serve`
+`$ php artisan serve`
 
 #### Authentication credentials
 
@@ -36,7 +36,7 @@ Use the following endpoints in order to test the application.
 
 User Register: **POST** `localhost:8000/api/register`\
 User Login: **POST** `localhost:8000/api/login`\
-User Logout: **POST** `localhost:8000/api/login`
+User Logout: **POST** `localhost:8000/api/logout`
 
 #### Authorization
 
